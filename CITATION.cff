@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the following paper."
+title: "3D-GTR: 3D Gaussian Transient Rendering for NLOS Imaging"
+type: software
+license: MIT
+authors:
+  - given-names: Yi
+    family-names: Wang
+  - given-names: Ziyu
+    family-names: Zhan
+  - given-names: Yuran
+    family-names: Wang
+  - given-names: Hao
+    family-names: Wang
+  - given-names: Qiang
+    family-names: Liu
+  - given-names: Zuoqiang
+    family-names: Shi
+  - given-names: Lingyun
+    family-names: Qiu
+  - given-names: Xing
+    family-names: Fu
+preferred-citation:
+  type: conference-paper
+  title: "Non-line-of-sight imaging with arbitrary relay surface geometries via 3D Gaussian Transient Rendering"
+  authors:
+    - given-names: Yi
+      family-names: Wang
+    - given-names: Ziyu
+      family-names: Zhan
+    - given-names: Yuran
+      family-names: Wang
+    - given-names: Hao
+      family-names: Wang
+    - given-names: Qiang
+      family-names: Liu
+    - given-names: Zuoqiang
+      family-names: Shi
+    - given-names: Lingyun
+      family-names: Qiu
+    - given-names: Xing
+      family-names: Fu
+  collection-title: "Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers"
+  year: 2026
+  doi: "10.1145/3799902.3811137"

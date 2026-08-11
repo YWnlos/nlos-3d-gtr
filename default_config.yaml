@@ -1,0 +1,56 @@
+# Example 3D-GTR configuration. See README.md for parameter-selection guidance.
+mat_path: ./real_data/real_trans_dataset_Swall3_O_32ps_manualz0_center.mat
+output_dir: ./real_output/Swall3_O_example
+scale_factor: 0.001
+train_split: 0.99
+batch_size: 1
+norm_cycle_on_batch: 1
+num_workers: 8
+device: cuda:0
+use_seed: true
+seed: 0
+num_gaussians_init: 3000
+x_min: -0.5
+x_max: 0.5
+y_min: -0.5
+y_max: 0.5
+z_min: 0.5
+z_max: 0.9
+scale_min: 0.005
+scale_max: 0.015
+scale_init: 0.01
+albedo_init: 0.1
+activation_mode: tanh
+scale_activation_mode: tanh
+albedo_activation_mode: tanh
+anisotropy_threshold: 15.0
+isplanar: true
+isconfocal: false
+isretroreflective: false
+render_magnification: 50000.0
+dT: 3.2e-11
+t_range: [0, 350]
+num_epochs: 20
+save_interval: 20
+lr_schedule: multistep
+warmup_ratio: 0.0
+milestones: [8, 16]
+gamma: 0.8
+weight_decay: 1.0e-9
+lr_xy: 0.005
+lr_z: 0.003
+lr_scale: 0.01
+lr_quat: 0.01
+lr_albedo: 0.05
+lr_xy_post_norm: 0.0005
+lr_z_post_norm: 0.0001
+lr_scale_post_norm: 0.0008
+lr_quat_post_norm: 0.0008
+lr_albedo_post_norm: 3.0e-05
+output_wallsize: 1.0
+output_res: 128
+output_t_range: [0, 512]
+output_dT: 3.2e-11
+predict_batch_size: 256
+use_auto_wall: true
+virtual_wall_path: ./virtual_wall/example_virtual_wall.mat

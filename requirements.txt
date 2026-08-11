@@ -1,0 +1,11 @@
+# Install a CUDA-compatible PyTorch build separately for your platform.
+torch>=2.3
+triton>=2.3
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+PyYAML>=6.0
+easydict>=1.10
+tqdm>=4.66
+tensorboard>=2.14
+open3d>=0.18

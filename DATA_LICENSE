@@ -1,0 +1,32 @@
+3D-GTR Data License
+
+Except for the third-party and third-party-derived materials identified below,
+the original datasets, model checkpoints, synthesized transient measurements,
+and reconstruction images in this repository are licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0).
+
+License deed:
+https://creativecommons.org/licenses/by/4.0/
+
+Legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Copyright (c) 2026 Yi Wang, Ziyu Zhan and the 3D-GTR authors
+
+When reusing covered material, give appropriate credit to the 3D-GTR authors,
+cite the 3D-GTR paper, link to CC BY 4.0, and indicate whether changes were
+made. Suggested attribution:
+
+  3D-GTR data by Yi Wang, Ziyu Zhan and the 3D-GTR authors,
+  licensed under CC BY 4.0.
+
+The following materials are excluded from CC BY 4.0 and remain subject to their
+upstream terms or separately granted permissions:
+
+- Teaser and Statue input datasets and the experiment directories derived from
+  them;
+- Bunny input datasets and the experiment directories derived from them;
+- any other material explicitly identified as third-party material.
+
+See THIRD_PARTY_NOTICES.md for exact paths, provenance, upstream permissions,
+and required citations.
